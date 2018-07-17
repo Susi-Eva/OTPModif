@@ -50,7 +50,6 @@ public class main {
         for(char output: np){
             System.out.println(output);
         }
-//        System.out.println(plaintext.indexOf('x'));
         
         //to create key
         String b = setNewKey(message, lengthOfKey);
@@ -70,7 +69,6 @@ public class main {
         //decryption
         System.out.println("\n++--Dekripsi--++");
         System.out.println("\nPlaintext: ");
-        System.out.println(plaintext);
         System.out.println(decrypt(encrypted,d));  
         
         sc.close();
